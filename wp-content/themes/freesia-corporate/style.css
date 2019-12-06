@@ -1,0 +1,73 @@
+/*
+Theme Name:Freesia Corporate
+Theme URI: https://themefreesia.com/themes/freesia-corporate
+Author: Theme Freesia
+Author URI: https://themefreesia.com
+Description: Freesia Corporate is a Child theme exclusively built for Corporate, Blog by Theme Freesia. It is a Multi Purpose WordPress Theme. The theme is fully responsive looks great on any screen size and mobile devices like tablets and mobile phones. Theme is optimized for performance and also for SEO which helps your site for higher ranking. Get free support at https://tickets.themefreesia.com/ and View demo site at https://demo.themefreesia.com/freesia-corporate.
+Version: 1.0.2
+Text Domain: freesia-corporate
+Template: freesia-empire
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Tags: threaded-comments, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, sticky-post, theme-options, translation-ready, post-formats, footer-widgets, blog, education, entertainment
+
+All files, unless otherwise stated, are released under the GNU General Public License
+version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+==================================================
+*/
+
+/* Main Slider Content */
+.slider-content .slider-title a,
+.slider-content .slider-text h3 {
+	color:#fff;
+}
+
+.header-social-block .social-links ul li a {
+	background-color: transparent;
+}
+
+.slider-content .btn-default span {
+	display: none;
+}
+
+.slider-content {
+	width: 40%;
+}
+
+.feature-content {
+	border-radius: 5px;
+}
+
+.our_feature .feature-icon {
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.parallax_content {
+	padding: 90px 0 70px;
+}
+
+.about-us-content .icon-box-image {
+	border: 5px solid #eee;
+	border-radius: 0;
+}
+
+.widget_latest_blog .entry-meta {
+	padding: 0;
+	border: none;
+	margin-bottom: 0;
+}
+
+.widget_latest_blog .entry-meta span:after {
+	display: none;
+}
+
+ul.next-prev {
+	top: 20px;
+	position: relative;
+}
+
+ul.next-prev li {
+	display: inline-block;
+}

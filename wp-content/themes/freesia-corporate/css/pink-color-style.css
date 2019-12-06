@@ -1,0 +1,140 @@
+/* For pink color*/
+
+/* Site Title, Page Title, Nav and links
+================================================== */
+#site-title a,
+a,
+ul li a:hover,
+ol li a:hover,
+.top-header .info ul li a:hover, /* ----- Top Header Info Bar ----- */
+.main-navigation a:hover, /* Navigation */
+.main-navigation ul li.current-menu-item a,
+.main-navigation ul li.current_page_ancestor a,
+.main-navigation ul li.current-menu-ancestor a,
+.main-navigation ul li.current_page_item a,
+.main-navigation ul li:hover > a,
+.main-navigation ul li ul li a:hover,
+.main-navigation ul li ul li:hover > a,
+.main-navigation ul li.current-menu-item ul li a:hover,
+.header-search:hover, .header-search-x:hover, /* Header Search Form */
+.search-submit:hover .search-icon,
+.entry-title a:hover, /* Post */
+.entry-title a:focus,
+.entry-title a:active,
+.entry-meta span:hover,
+.entry-meta a:hover,
+.cat-links a:hover,
+.tag-links a:hover,
+.entry-meta .entry-format,
+.entry-meta .entry-format a,
+.widget ul li a:hover,/* Widgets */
+.widget-title a:hover,
+.widget_contact ul li:hover:before,
+.widget_contact ul li a:hover,
+.site-info .copyright a:hover, /* Footer */
+#colophon .widget ul li a:hover,
+#footer-navigation a:hover {
+	color: #e91844;
+}
+
+/* Webkit */
+::selection {
+	background: #e91844;
+	color: #fff;
+}
+/* Gecko/Mozilla */
+::-moz-selection {
+	background: #e91844;
+	color: #fff;
+}
+
+/* Accessibility */
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	background-color:#F1F1F1;
+	color: #e91844;
+}
+
+/* Buttons
+================================================== */
+.line-one,/* Responsive Nav Button  */
+.line-two,
+.line-three,
+input[type="reset"],/* Forms  */
+input[type="button"],
+input[type="submit"],
+.go-to-top a:hover {
+	background-color:#e91844;
+}
+/* Default Buttons */
+.btn-default:hover,
+.vivid,
+.bbp-submit-wrapper button.submit, /* #bbpress */
+.newsletter-widget .newsletter-submit:hover { /* ----- News Letter ----- */
+	background-color: #e91844;
+	border: 1px solid #e91844;
+}
+/* -_-_-_ Not for change _-_-_- */
+.light-color:hover,
+.vivid:hover {
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+
+/* Widgets Color
+================================================== */
+/*  Font Color */
+.our_feature .feature-title a:hover, /* Our Feature */
+.portfolio-content h3 a:hover, /* Portfolio Widget */
+.testimonials .quote cite { /* ----- Testimonial Slider ----- */
+	color: #e91844;
+}
+/* Background Color */
+nav.slider-button a.active, /* Slider Pagenav */
+nav.slider-button a:hover,
+.our_feature .feature-icon, /* Our Feature */
+.parallax_content:before, /* Parallax  Widget */
+.about-us-content .icon-box-image, /*About Us Widget */
+.widget_portfolio .portfolio-container, /* Portfolio Widget */
+.portfolio-content h3:after,
+.design-line, /* Parallax Video  Widget */
+ul.next-prev li.active, ul.next-prev li:hover { /* ----- Testimonial Slider ----- */
+	background-color: #e91844;
+}
+/* Border Color */
+.feature-content:hover .feature-icon, /* Our Feature */
+.widget_about_us .about-us-content:before, /*About Us Widget */
+.design-line:after, /*Parallax Video  Widget */
+ul.next-prev li { /* ----- Testimonial Slider ----- */
+	border-color: #e91844;
+}
+
+/* Page Header Background
+================================================== */
+.page-header {
+	background-color: #e91844;
+}
+
+/* bbpress
+================================================== */
+#bbpress-forums .bbp-topics a:hover {
+	color: #e91844;
+}
+
+/* Woocommerce
+================================================== */
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt,
+.woocommerce-demo-store p.demo_store {
+	background-color: #e91844;
+}
+.woocommerce .woocommerce-message:before {
+	color: #e91844;
+}
